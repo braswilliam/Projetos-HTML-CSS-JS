@@ -1,0 +1,22 @@
+.menu__link {
+    color: var(--cinza-claro);
+    margin-right: 1.25em;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.menu__link-ultimo--lista{
+    margin-right: 0;
+}
+
+.menu__link--preto {
+    color: var(--preto-padrao);
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+
+

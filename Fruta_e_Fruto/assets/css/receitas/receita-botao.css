@@ -1,0 +1,14 @@
+.receita__botao {
+    background: var(--vinho-principal);
+    border: none;
+    border-radius: 5px;
+    color: var(--branco-secundario);
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.receita__botao:hover {
+    background: var(--vinho-secundario);
+    cursor: pointer;
+
+}

@@ -1,0 +1,25 @@
+.receitas {
+    background: var(--cinza-terciario);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+@media screen and (min-width: 0) {
+    .receitas {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receitas {
+        padding:5rem 0 0 5rem;
+    }
+}

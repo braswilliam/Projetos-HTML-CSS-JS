@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+:root {
+    --fonte-principal:'Montserrat',Arial, Helvetica, sans-serif;
+    --preto: #000;
+    --branco: #FFF;
+    --laranja: #B28756;
+    --cinza1: #DDD;
+    --cinza2: #555;
+    --cinza3: #F7F7F7;
+    --cinza4: #CCC;
+    --cinza5: #333;
+    --cinza6: #999;
+    --cinza7: #EEE;
+    --cinza8: #ebebeb;
+    --cinza9: #d8d8d8;
+ }

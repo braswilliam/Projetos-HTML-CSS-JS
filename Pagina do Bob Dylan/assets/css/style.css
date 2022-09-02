@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;    
+    background-color: #9fc2c9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.lista-links {
+    display: flex;
+}
+
+#titulo {
+    color: #FFFFFF;
+}
+
+.lista-links a {
+    margin-right: 40px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.fotografia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.moldura {
+    display: flex;
+    justify-content: center;
+    width: 84%;
+    background-image: url(../img/cover-image\ \(1\).png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.moldura img {
+    width: 350px;
+    margin: 20px 0px 20px 0px;
+}
+
+.musicas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#nome-titulo {
+    font-size: 30px;
+    color: #43737c;
+    margin-bottom: 50px;
+}
+
+.lista-musica {
+    display: flex;
+}
+
+.lista-musica li {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.lista-musica li h1 {
+    text-align: center;
+    color: #43737c;
+    margin-bottom: 20px;
+}
+
+.lista-musica li p {
+    width: 350px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #43737c;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.biografia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+}
+
+.biografia h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #43737c;
+}
+
+
+.biografia p {
+    font-size: 16px;
+    line-height:20px;
+    color: #43737c;
+}
+
+.veja-tambem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.informacoes {
+    width: 84%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.conteudo1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo1 h2 {
+    margin-bottom: 20px;
+    color: #43737c;
+    
+}
+
+.conteudo1 a {
+    margin-bottom: 20px;
+    color: #43737c;   
+}
+
+.conteudo2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo2 h2 {
+    margin-bottom: 20px;
+    color: #43737c;
+   
+}
+
+.conteudo2 p {
+    margin-bottom: 20px;
+    line-height: 20px;
+    width: 300px;
+    color: #43737c;
+}
+.conteudo3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.conteudo3 h2 {
+    margin-bottom: 20px;
+    color: #43737c;
+    
+}
+
+.conteudo3 p {
+    margin-bottom: 20px;
+    line-height: 20px;
+    width: 300px;
+    color: #43737c;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i {
+    margin-left: 5px;
+}
+
+footer a {
+    margin-left: 5px;
+    color: #000000;
+    font-weight: bold;
+}
+
+@media (max-width: 70rem) {
+
+    header {   
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        border-radius: 20px;
+        margin: 5px 5px 20px 5px;     
+    }
+
+    header h1 {
+    
+        font-size: 25px;
+        
+    }
+
+    .lista-links {
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .lista-links a {
+        
+        font-size: 20px;
+    }
+
+    .moldura {
+       width: 400px; 
+    }
+
+    .moldura img {
+        width: 250px;
+    }
+    
+    .musicas {
+        
+        flex-direction: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .lista-musica {
+        flex-direction: column;
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .musica-titulo {
+        border: 2px solid #43737c;
+        border-radius: 20px;
+        color: #FFFFFF;
+        margin-top: 50px;
+    
+    }
+
+    .informacoes {
+        flex-direction: column;
+    }
+
+    .conteudo1{
+        order: 2;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer i {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

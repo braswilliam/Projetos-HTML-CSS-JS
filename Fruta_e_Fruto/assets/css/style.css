@@ -1,0 +1,74 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*menu-cabecalho*/
+@import url("../css/menu/cabecalho.css");
+@import url("../css/menu/menu-lista.css");
+@import url("../css/menu/menu-item.css");
+@import url("../css/menu/menu-link.css");
+
+/*Banner*/
+@import url("../css/banner/banner.css");
+@import url("../css/banner/baner-imagem.css");
+@import url("../css/banner/banner-titulo.css");
+
+/*Sobre*/
+@import url("../css/sobre/sobre.css");
+@import url("../css/sobre/sobre-titulo.css");
+@import url("../css/sobre/sobre-descricao.css");
+
+/*receitas*/
+@import url("../css/receitas/receitas.css");
+@import url("../css/receitas/receita.css");
+@import url("../css/receitas/receita-titulo.css");
+@import url("../css/receitas/receita-imagem.css");
+@import url("../css/receitas/receita-descricao.css");
+@import url("../css/receitas/receita-conteudo.css");
+@import url("../css/receitas/receita-botao.css");
+
+/*quem somos*/
+@import url("../css/quemSomos/quemSomos.css");
+@import url("../css/quemSomos/quemSomos-titulo.css");
+@import url("../css/quemSomos/quemSomos-descricao.css");
+
+/*pessoa*/
+@import url("../css/pessoa/pessoas.css");
+@import url("../css/pessoa/pessoa.css");
+@import url("../css/pessoa/pessoa-nome.css");
+@import url("../css/pessoa/pessoa-imagem.css");
+@import url("../css/pessoa/pessoa-funcao.css");
+
+/*rodape*/
+@import url(../css/rodape/rodape.css);
+
+/*logo*/
+@import url(../css/logo/logo.css);
+
+:root {
+
+    --fonte-principal: 'Pacifico';
+
+    --branco-fundo: #f9f9f9;
+    --branco-secundario: #fdfdfd;
+    --branco-padrao: #FFFFFF;
+
+    --cinza-claro: #808080;
+    --cinza-secundario: #8C8888;
+    --cinza-terciario:#e5e5e5;
+    --cinza-quaternario: #595959;
+    --cinza-quiquario: #bfbfbf;
+
+    --vinho-principal: #8d0606;
+    --vinho-secundario: #620404;
+
+    --preto-padrao: #333333;
+    --sobra-texto: #000000bf;
+    
+   
+}
+
+
+
+
+
+
