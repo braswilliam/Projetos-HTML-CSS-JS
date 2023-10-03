@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:wght@700&family=Press+Start+2P&display=swap');
+
+
+body {
+
+    background-color: #450000;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    color: #FFE700;
+}
+
+.container {
+    max-width: 150vh;
+    background-color: black;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header img {
+    width: 300px;
+    margin: 40px 0px 20px 0px;
+}
+
+.main-paragraph {
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 100px;
+
+}
+
+.featured-image {
+    display: flex;
+    justify-content: center;
+}
+
+.featured-image img {
+    width: 150vh;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.biography-container {
+    margin-top: 50px;
+}
+
+.biography-container h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.biography-container p {
+    text-align: left;
+    padding: 0px 100px 0px 100px;
+    font-size: 20px;
+    color: #e4cb0ed2;
+}
+
+.img-interval {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.img-interval img {
+    width: 60vh;
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.quotes-container {
+    background-color: rgba(242, 12, 12, 0.459);
+    padding: 30px;
+    border-radius: 10px;
+    width: 120vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quotes-container-column {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.quotes-container img {
+    width: 50vh;
+    border-radius: 10px;
+}
+
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+    font-size: 20px;
+    font-style: italic;
+    color: #e4cb0ed2;
+}
+
+.quotes-container p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.curiosity {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.curiosities-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    background-color: rgba(242, 12, 12, 0.459);
+    border-radius: 10px;
+    width: 120vh;
+
+}
+
+.curiosities-container li {
+    list-style: none;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+.img-bold {
+    display: flex;
+    justify-content: center;
+}
+
+.img-bold img {
+    width: 150vh;
+    border-radius: 10px;
+    
+}
+
+
+#curiosity-title {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.biography-container {
+    text-align: center;
+}
+
+.biography-container img {
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+
+.comics {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #400000;
+}
+
+.comics-conaisner img {
+    width: 200px;
+}
+
+#more-width {
+    width: 200px;
+}
+
+.comics-conaisner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+
+#color-container img {
+    width: 100vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
